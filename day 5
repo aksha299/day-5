@@ -21,3 +21,27 @@ int main()
     return 0;
 }
 ----------------------------
+
+
+#include <stdio.h>
+
+struct fract
+{
+    int num[20];
+    int den[20];
+    int n;
+}
+
+struct fact read1()
+{
+    struct fract i;
+    int k;
+    printf("\nEnter the number of fractions you want to input:");
+    scanf("%d",&n);
+    printf("\nEnter the numerator:");
+    for(k=0;k<i.n;k++)
+    scanf("%d",&i.a[i]);
+    printf("Enter the denominators:\n");
+    for(k=0;k<i.n;k++)
+    scanf("")
+}
